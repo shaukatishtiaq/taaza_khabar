@@ -57,10 +57,10 @@ Set up the database:
 ## Usage
 ### API Endpoints:
 
-POST /users: Create a new user.
-GET /users/{email}/verify: Send verification email to the user.
-GET /users/{email}/verify/{verificationCode}: Verify a user with the provided verification code.
-DELETE /users/{email}: Delete a user.
+- `POST /users: Create a new user.`
+- `GET /users/{email}/verify: Send verification email to the user.`
+- `GET /users/{email}/verify/{verificationCode}: Verify a user with the provided verification code.`
+- `DELETE /users/{email}: Delete a user.`
 
 ### Web Scraping and PDF Generation:
 
